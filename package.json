@@ -1,0 +1,24 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "View metadata for an uploaded file",
+  "main": "index.js",
+  "author": "Joseph Davis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrWhiteNerdy/file-metadata-microservice"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
